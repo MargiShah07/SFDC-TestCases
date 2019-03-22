@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestCases]">
+  <test thread-count="5" name="TestCase1(failed)">
+    <parameter name="EName" value="Shah"/>
+    <parameter name="password" value="mnshah@09"/>
+    <parameter name="uname" value="nilay92000@yahoo.com"/>
+    <parameter name="EAdd" value="nilay92000@yahoo.com"/>
+    <classes>
+      <class name="testNGTCWithXML.TCXMLClass">
+        <methods>
+          <include name="Validate_Login_Error_Message_4b" invocation-numbers="0"/>
+          <include name="Select_MySetting_Dropdown_7"/>
+        </methods>
+      </class> <!-- testNGTCWithXML.TCXMLClass -->
+    </classes>
+  </test> <!-- TestCase1(failed) -->
+</suite> <!-- Failed suite [TestCases] -->

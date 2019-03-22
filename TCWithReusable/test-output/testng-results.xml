@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestCases" duration-ms="257632" started-at="2019-03-11T19:39:02Z" finished-at="2019-03-11T19:43:20Z">
+    <groups>
+    </groups>
+    <test name="TestCase1" duration-ms="257632" started-at="2019-03-11T19:39:02Z" finished-at="2019-03-11T19:43:20Z">
+      <class name="testNGTCWithXML.TCXMLClass">
+        <test-method status="PASS" signature="Navigate_to_SFDC_TC1(java.lang.String, java.lang.String)[pri:0, instance:testNGTCWithXML.TCXMLClass@51efea79]" name="Navigate_to_SFDC_TC1" duration-ms="43899" started-at="2019-03-11T19:39:02Z" finished-at="2019-03-11T19:39:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nilay92000@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mnshah@09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigate_to_SFDC_TC1 -->
+        <test-method status="PASS" signature="Login_to_SFDC_TC2(java.lang.String, java.lang.String)[pri:2, instance:testNGTCWithXML.TCXMLClass@51efea79]" name="Login_to_SFDC_TC2" duration-ms="35141" started-at="2019-03-11T19:39:46Z" finished-at="2019-03-11T19:40:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nilay92000@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mnshah@09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_to_SFDC_TC2 -->
+        <test-method status="PASS" signature="Test_remember_checkbo_TC3(java.lang.String, java.lang.String)[pri:3, instance:testNGTCWithXML.TCXMLClass@51efea79]" name="Test_remember_checkbo_TC3" duration-ms="22175" started-at="2019-03-11T19:40:21Z" finished-at="2019-03-11T19:40:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nilay92000@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mnshah@09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_remember_checkbo_TC3 -->
+        <test-method status="PASS" signature="Test_Forgot_Password_4a(java.lang.String)[pri:4, instance:testNGTCWithXML.TCXMLClass@51efea79]" name="Test_Forgot_Password_4a" duration-ms="11148" started-at="2019-03-11T19:40:44Z" finished-at="2019-03-11T19:40:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nilay92000@yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Forgot_Password_4a -->
+        <test-method status="PASS" signature="Validate_Login_Error_Message_4b(java.lang.String, java.lang.String)[pri:5, instance:testNGTCWithXML.TCXMLClass@51efea79]" name="Validate_Login_Error_Message_4b" duration-ms="25419" started-at="2019-03-11T19:40:55Z" finished-at="2019-03-11T19:41:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nilay9200@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mnshah@9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Login_Error_Message_4b -->
+        <test-method status="PASS" signature="Select_MySetting_Dropdown_7(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:testNGTCWithXML.TCXMLClass@51efea79]" name="Select_MySetting_Dropdown_7" duration-ms="43905" started-at="2019-03-11T19:41:20Z" finished-at="2019-03-11T19:42:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nilay92000@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mnshah@09]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shah]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nilay92000@yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_MySetting_Dropdown_7 -->
+        <test-method status="PASS" signature="Developers_Console_UserName_Dropdown_8(java.lang.String, java.lang.String)[pri:8, instance:testNGTCWithXML.TCXMLClass@51efea79]" name="Developers_Console_UserName_Dropdown_8" duration-ms="26616" started-at="2019-03-11T19:42:04Z" finished-at="2019-03-11T19:42:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nilay92000@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mnshah@09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Developers_Console_UserName_Dropdown_8 -->
+        <test-method status="PASS" signature="Logout_UserName_Dropdown_9(java.lang.String, java.lang.String)[pri:9, instance:testNGTCWithXML.TCXMLClass@51efea79]" name="Logout_UserName_Dropdown_9" duration-ms="22817" started-at="2019-03-11T19:42:31Z" finished-at="2019-03-11T19:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nilay92000@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mnshah@09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_UserName_Dropdown_9 -->
+        <test-method status="PASS" signature="Create_an_Account_10(java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:testNGTCWithXML.TCXMLClass@51efea79]" name="Create_an_Account_10" duration-ms="26425" started-at="2019-03-11T19:42:54Z" finished-at="2019-03-11T19:43:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nilay92000@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mnshah@09]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Margi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_an_Account_10 -->
+      </class> <!-- testNGTCWithXML.TCXMLClass -->
+    </test> <!-- TestCase1 -->
+  </suite> <!-- TestCases -->
+</testng-results>

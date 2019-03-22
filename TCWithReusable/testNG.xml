@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestCases">
+	<test name="TestCase1">
+		<parameter name="uname" value="nilay92000@yahoo.com"></parameter>
+		<parameter name="password" value="mnshah@09"></parameter>
+		<parameter name="wrnguname" value="nilay9200@yahoo.com"></parameter>
+		<parameter name="wrngpwd" value="mnshah@9"></parameter>
+		<parameter name="EName" value="Shah"></parameter>
+		<parameter name="EAdd" value="nilay92000@yahoo.com"></parameter>
+		<parameter name="AcName" value="Margi"></parameter>
+		<classes>
+			<class name="testNGTCWithXML.TCXMLClass"></class>
+		</classes>
+	</test>
+</suite>
